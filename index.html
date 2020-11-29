@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <title>Ticket, Please! Be aware before you go anywhere!</title>
+      <link href="WebApp.css" rel="stylesheet" type="text/css" />
+      <link href"" rel="icon" />
+    </head>
+    <body>
+        <!--Displays the text in the side-->
+        <div class="side">
+          <div class="title">
+            <h1>Tickets, Please!</h1>
+            <h3>Be aware before you go anywhere!</h3>
+          </div>
+        </div>
+        <div class="content">
+          <!--Div for the form-->
+          <div class="form">
+            <form action="ThankYou.html" method="GET">
+                <h3>Tell us a little about yourself</h3>
+                <ul>
+                    <li>
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="name" placeholder="Juan">
+                    </li>
+                    <li>
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="name" placeholder="Dela Cruz">
+                    </li>
+                    <li>
+                        <label for="birthdate"> Birthday</label>
+                        <input type="date" id="birthdate" name="birthdate">
+                    </li>
+                    <li>
+                        <label for="age">Age</label>
+                        <input type="number" id="age" name="age">
+                    </li>
+                </ul>
+                <hr>
+                <h3>The following set of questions will now ask about the trip itself</h3>
+                <ul>
+                    <li>
+                        <label for="date">Date of the trip</label>
+                        <input type="date" id="date" name="tripdate">
+                    </li>
+                    <li>
+                        <label for="time">Time of the trip</label>
+                        <input type="time" id="time" name="triptime">
+                    </li>
+                    <li>
+                        <label for="purpose">Purpose of the trip</label>
+                        <textarea id="purpose" name="purpose"></textarea>
+                    </li>
+                </ul>
+                <hr>
+                <ul>
+                    <li>
+                        <p>
+                            The Ticket of Entry will be sent to you via email. Please enter your 
+                            email so that we are able to send you the Ticket of Entry.
+                        </p>
+                    </li>
+                    <li> 
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="emailadd" size="30" placeholder="email@gmail.com">
+                    </li>
+                    <li>
+                        <input type="submit" id="btn">
+                    </li>
+                </ul>
+            </form>
+          </div>
+        </div>
+    </body>
+</html>
